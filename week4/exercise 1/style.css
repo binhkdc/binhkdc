@@ -1,0 +1,28 @@
+.note {
+	color: gray;
+	font-size: 15px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.button-blue-video {
+	width: 300px;
+	background-color: rgb(57, 194, 237);
+	height: 50px;
+	border-radius: 100px;
+}
+.button-another {
+	width: 200px;
+	background-color: rgb(8, 172, 71);
+	height: 50px;
+	border-radius: 100px;
+}
+.label-a-legant {
+	font-size: 50px;
+	color: gray;
+}
+.label-prety-easy {
+	font-size: 50px;
+	color: gray;
+}

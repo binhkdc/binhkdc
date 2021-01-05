@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>exercise 4</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<div class="container-center col-md-4">
+			<h1>Đăng kí Thành Viên</h1>
+			<p class="text-left">Để đăng kí thành viên, ban cần khai báo tát cả các ô trống dưới đây</p>
+			<div class="form-group"> 
+				<div class="text-center"> 
+					<div class="input-group size-text"><input placeholder="Họ Và Tên Đệm" class="form-control" type="text"> 
+					</div><br>
+					<div class="input-group size-text"><input placeholder="Tên" class="form-control" type="text">
+					</div><br>
+					<div class="input-group size-text"><input placeholder="Tên Đăng Nhập" class="form-control" type="text"> 
+					</div><br>
+					<div class="input-group size-text"><input placeholder="Email" class="form-control" type="email"> 
+					</div><br>
+					<div class="input-group size-text"><input placeholder="Mật Khẩu" class="form-control" type="password"> 
+					</div><br>
+					<div class="input-group size-text"><input placeholder="Nhập lại Mật Khẩu" class="form-control" type="password"> 
+					</div><br>
+					<label for="HTML" class="text-left">Giới tính</label>
+					<input type="radio" name="chooseone" value="HTML"><label for="HTML">N/A</label>
+					<input type="radio" name="chooseone" value="HTML"><label for="HTML">Nam</label>
+					<input type="radio" name="chooseone" value="HTML"><label for="HTML">Nữ</label>
+					<input placeholder="Ngày tháng năm sinh" class="size-text" type="date"><br><br>
+					<textarea name="signature" rows="3" cols="50" placeholder="Chữ ký" class="size-text"></textarea><br>
+					<select class="size-text" name="security-question" id="security-question" required>
+						<option value="" disabled selected hidden>Câu hỏi bảo mật</option>
+						<option>mot cai cau hoi?</option>
+						<option>vai cau hoi nua?</option>
+						<option>thoi khong can hoi?</option>
+					</select><br>
+					<div class="input-group size-text"><input placeholder="Trả lời câu hỏi" class="form-control" type="text"> 
+					</div><br>
+					<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="flexCheckDefault"/>
+					<label class="form-check-label" for="flexCheckDefault">Tôi đồng ý với</label>
+					<button>Quy định đăng kí thành viên</button><br>
+					<button type="button" class="btn-sm">Thiết lập lại</button>
+					<button type="button" class="btn btn-primary">Đăng kí thành viên</button>
+					</div>	
+				</div> 
+			</div> 	
+		</div>
+	</body>
+</html>

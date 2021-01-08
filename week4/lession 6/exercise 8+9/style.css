@@ -1,0 +1,15 @@
+.container {
+}
+.navigation {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.heading {
+	font-size: 35px;
+	text-align: center;
+}
+.headline {
+	margin-left: 5%;
+	font-size: 25px;
+	line-height: 30px;
+}

@@ -7,13 +7,13 @@
 	display: grid;
 	grid-template-columns: 72% 28%;
 }
-.button_1 {
+.register-button {
 	color: white;
 	background: green;
 	height: 50px;
 	width: 90%;
 }
-.button_2 {
+.login-button {
 	height: 50px;
 	width: 90%;
 }
@@ -23,7 +23,7 @@
 .label-border {
 	color: #fff;
 	position: absolute;
-	top: 80%;
+	top: 70%;
 	left: 10%;
 	background-color: black;
 	opacity: 0.6;

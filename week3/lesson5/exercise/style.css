@@ -51,7 +51,7 @@ footer {
 	display: inline;
 	list-style-type: none;
 	padding: 5px;
-	text-align: center;
+	text-align: center;/
 }
 header {
 	position: relative;
@@ -90,5 +90,5 @@ button:hover{
 }
 .label-cs {
 	font-size: 40px;
-
+	float: left;
 }

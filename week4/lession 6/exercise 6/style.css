@@ -6,13 +6,13 @@
 	border: solid blue 10px;
 	height: 600px;
 }
-.button-google{
+.button-gg{
 	width: 30%;
 	background-color: red;
 	height: 40px;
 	color: white;
 }
-.button-facebook{
+.button-fb{
 	width: 30%;
 	background-color: blue;
 	height: 40px;
@@ -44,11 +44,11 @@
 	width: 90%;
 	height: 40px;
 }
-.label_1 {
+.label-mail {
 	float: left;
 	margin-left: 5%;
 }
-.label_2 {
+.label-password {
 	float: right;
 	margin-right: 5%;
 }

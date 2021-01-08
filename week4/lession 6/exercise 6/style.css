@@ -2,6 +2,7 @@
 	padding-left: 35%;
 	padding-right: 35%;
 	padding-top: 5%;
+	padding-bottom: 5%;
 	background-image: url('icon/OIP 1.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
@@ -10,24 +11,29 @@
 .container-box {
 	background-color: white;
 	height: 600px;
+	padding-top: 5%;
 }
-.button-google{
+.btn-google{
 	width: 30%;
 	background-color: red;
 	height: 40px;
 	color: white;
+	border: solid 1px red;
 }
-.button-facebook{
+.btn-facebook{
 	width: 30%;
 	background-color: blue;
 	height: 40px;
 	color: white;
+	border: solid 1px blue;
+	
 }
-.button-call{
+.btn-call{
 	width: 30%;
 	background-color: green;
 	height: 40px;
 	color: white;
+	border: solid 1px green;
 }
 .text:after {
 	content: "*";
@@ -49,11 +55,11 @@
 	width: 90%;
 	height: 40px;
 }
-.label_1 {
+.label-left {
 	float: left;
 	margin-left: 5%;
 }
-.label_2 {
+.label-right {
 	float: right;
 	margin-right: 5%;
 }

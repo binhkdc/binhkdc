@@ -21,13 +21,14 @@ button {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
-.label-color{
+.text-color{
 	color: silver;
 	line-height: 35px;
-
 }
 .label-color  ul li {
 	list-style: none;
+	color: silver;
+	line-height: 35px;
 }
 .box-email {
 	width: 250px;

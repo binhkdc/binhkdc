@@ -1,18 +1,23 @@
 .container-border {
-	padding: 35%;
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-top: 5%;
+	background-image: url('icon/OIP 1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
 }
 .container-box {
 	background-color: white;
-	border: solid blue 10px;
 	height: 600px;
 }
-.button-gg{
+.button-google{
 	width: 30%;
 	background-color: red;
 	height: 40px;
 	color: white;
 }
-.button-fb{
+.button-facebook{
 	width: 30%;
 	background-color: blue;
 	height: 40px;
@@ -44,11 +49,11 @@
 	width: 90%;
 	height: 40px;
 }
-.label-mail {
+.label_1 {
 	float: left;
 	margin-left: 5%;
 }
-.label-password {
+.label_2 {
 	float: right;
 	margin-right: 5%;
 }

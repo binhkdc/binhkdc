@@ -30,4 +30,12 @@
 	height: 25%;
 	width: 30%;
 	padding-left: 2%;
+	padding-right: 2%;
+}
+hr {
+    border: none;
+    height: 5px;
+    color: white;
+    background-color: white;
+	
 }

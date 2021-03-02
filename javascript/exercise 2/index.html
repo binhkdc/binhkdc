@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <title>exercise 2</title>
+</head>
+<body>
+<label for="first"></label>
+<input type="text" id="first" placeholder="number1"><br>
+<label for="second"></label>
+<input type="text" id="second" placeholder="number2"><br>
+<button onclick="number()">Max number</button>
+<p>max:<i id="demo"></i></p>
+<script>
+    function number(){
+        let x = document.getElementById('first').value;
+        let y = document.getElementById('second').value;
+        if (x>y) {
+            document.getElementById("demo").innerHTML = x;
+        }
+        else {
+            document.getElementById("demo").innerHTML = y;
+        }
+    }
+</script>
+</body>
+</html>

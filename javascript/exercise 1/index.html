@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <title>bai tap 1</title>
+</head>
+<body>
+<label for="n1">1st Number:</label>
+<input type="text" id="n1"><br>
+<label for="n2">2st Number:</label>
+<input type="text" id="n2"><br>
+<button onclick="multiply()" id="multiply">multiply</button>
+<button onclick="divide()">divide</button>
+<p>The Result Is:<i id="result"></i></p>
+<script type="text/javascript">
+    function multiply() {
+        let x = document.getElementById('n1').value;
+        let y = document.getElementById('n2').value;
+        document.getElementById("result").innerHTML = x * y;
+    }
+    function divide() {
+        let x = document.getElementById('n1').value;
+        let y = document.getElementById('n2').value;
+        document.getElementById("result").innerHTML = x / y;
+    }
+</script>
+</body>
+</html>

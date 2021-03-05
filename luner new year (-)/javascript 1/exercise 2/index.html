@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <title>exercise 2 js1</title>
+    <script>
+        function ptbac1() {
+            let a = document.getElementById('number1').value;
+            let b = document.getElementById('number2').value;
+            document.getElementById("text").innerHTML= -b / a;
+        }
+    </script>
+</head>
+<body>
+<label for="number1">nhap so a:</label>
+<input type="text" id="number1"><br>
+<label for="number2">nhap so b:</label>
+<input type="text" id="number2"><br>
+<button type="button" onclick="ptbac1()">Tim x</button>
+<p id="text"></p>
+</body>
+</html>

@@ -4,14 +4,9 @@
     <title>exercise 1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <style>
-        .container {
-            max-width: 767px;
-        }
-    </style>
 </head>
 <body>
-<div class="container">
+<div class="container w-50 bg-light p-3">
     <form name="myForm" action="/action_page.php">
         <label>First Name</label>
         <input type="text" class="form-control" name="fname" required>
@@ -21,7 +16,7 @@
         <label for="male">Male</label>
         <input type="radio" id="female" value="female" name="gender" required>
         <label for="female">Female</label>
-        <input type="date" class="form-control" required>
+        <input type="date" class="form-control" required><br>
         <input type="submit" value="Submit" class="btn btn-success">
     </form>
 </div>

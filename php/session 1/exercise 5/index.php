@@ -1,5 +1,5 @@
 <?php
-$x = 132;
+$x = 100;
 
 $bac1 = ($x - 100) * 600 + 45000;
 $bac2 = ($x - 200) * 750 +105000;
@@ -14,7 +14,8 @@ $thuebac4=$bac4*(10/100);
 $thuebac5=$bac5*(10/100);
 
 if ($x < 101) {
-    echo $x * 450;
+    echo "Tiền điện khi chưa Tính thuế VAT: ".($x * 450)."<br>";
+    echo "Tiền điện khi đã Tính thuế VAT: ".$x * 450*(10/100);
 } elseif ($x < 201) {
     echo "Tiền điện khi chưa Tính thuế VAT: ".($bac1)."<br>";
     echo "Tiền điện khi đã Tính thuế VAT: ".($bac1+$thuebac1);

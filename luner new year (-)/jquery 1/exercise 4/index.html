@@ -4,8 +4,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("input").enterKeyHint(function(){
-                $("p").append("<li>Appended item</li>");
+            $("input").keypress(function(e){
+                if (e.wich == 13) {
+                    $('form#login').submit();
+                    return false;
+                }
             });
         });
     </script>

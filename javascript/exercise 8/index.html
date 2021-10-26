@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <title>exercise 8</title>
+    <script>
+        function max() {
+            let x = document.getElementById('number1').value;
+            let y = document.getElementById('number2').value;
+            let z = document.getElementById('number3').value;
+            var max = x;
+            var min = x;
+            if (y>max){
+                max= y ;
+            }
+            else if (z>max){
+                max =z;
+            }
+            else {
+                max =x;
+            }
+            document.getElementById("text").innerHTML ="max la:" + max;
+            if (y<min){
+                min=y;
+            }else if (z<min){
+                min=z;
+            }else {
+                min=x;
+            }
+            document.getElementById("text1").innerHTML ="min la:" + min;
+        }
+    </script>
+</head>
+<body>
+    <input id="number1" type="text">
+    <input id="number2" type="text">
+    <input id="number3" type="text">
+    <button type="button" onclick="max()">hien thi max-min</button>
+    <p id="text"></p>
+    <p id="text1"></p>
+</body>
+</html>

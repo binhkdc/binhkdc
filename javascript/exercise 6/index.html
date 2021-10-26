@@ -1,13 +1,23 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>exercise 6</title>
+    <title>exercise 6</title>
+    <script>
+        function kiemtra() {
+            let n = document.getElementById('number').value;
+            if (n>1 && n < 10) {
+                document.write("nam trong khoang 1-10 ");
+            } else if ( 50 < n && n <100) {
+                document.write("nam trong khoang 1-10 hoac 50-100");
+            } else {
+                document.write("khong nam trong khoang 1-10 hoac 50-100");
+            }
+        }
+    </script>
 </head>
 <body>
-	<script>
-		var a = new Array(1,2,3);
-		var b = new Array(100,2,1,10);
-		console.log(a[0],a[1],b[1],b[2]);
-	</script>
+<label for="number">nhap vao so a:</label>
+<input id="number" type="text">
+
+<button type="button" onclick="kiemtra()">ok</button>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.container {
+	width: 50%;
+	margin-left: 25%;
+}
+.headline {
+	text-align: center;
+}
+.label-right {
+	float: right;
+}
+.label-left {
+	float: left;
+}
